@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Dev Intern Landing Page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navbar will go here -->
+   <header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#hero">Brand<span class="dot">.</span></a>
+
+    <nav class="main-nav" aria-label="Main Navigation">
+      <ul id="nav-list" class="nav-list">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button id="nav-toggle" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span class="hamburger"></span>
+    </button>
+  </div>
+</header>
+
+
+  <!-- Hero Section will go here -->
+   <section class="hero">
+  <div class="hero-content">
+    <h1>Welcome to Our Website</h1>
+    <p>Your tagline or short description goes here.</p>
+    <a href="#features" class="btn">Get Started</a>
+  </div>
+  <div class="hero-image">
+    <img src="images/hero.png" alt="Hero Image">
+  </div>
+</section>
+
+
+
+  <!-- Features Section will go here -->
+   <section class="features" id="features">
+  <h2>Our Features</h2>
+  <div class="features-grid">
+    <div class="feature-item">
+      <img src="images/feature1.png" alt="Feature 1">
+      <h3>Feature One</h3>
+      <p>Short description of feature one.</p>
+    </div>
+    <div class="feature-item">
+      <img src="images/feature2.png" alt="Feature 2">
+      <h3>Feature Two</h3>
+      <p>Short description of feature two.</p>
+    </div>
+    <div class="feature-item">
+      <img src="images/feature3.png" alt="Feature 3">
+      <h3>Feature Three</h3>
+      <p>Short description of feature three.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== About Section ===== -->
+<section class="about" id="about">
+    <div class="container about-wrapper">
+
+        <div class="about-image">
+            <img src="images/about.png" alt="About Image">
+        </div>
+
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>
+                We are a team committed to delivering high-quality services with
+                attention to detail and customer satisfaction. Our goal is to build
+                innovative solutions that make your life easier.
+            </p>
+
+            <p>
+                With years of experience and passion for excellence, we continue
+                improving and adapting to bring you the best possible results.
+            </p>
+
+            <a href="#" class="about-btn">Learn More</a>
+        </div>
+
+    </div>
+</section>
+
+   <!-- ===== Testimonials Section ===== -->
+<section class="testimonials" id="testimonials">
+    <div class="container">
+
+        <h2 class="section-title">What Our Customers Say</h2>
+
+        <div class="testimonials-grid">
+
+            <div class="testimonial-card">
+                <img src="images/user1.png" alt="User 1">
+                <h3>John David</h3>
+                <p>"Amazing service! Very professional and reliable. Highly recommended."</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="images/user2.png" alt="User 2">
+                <h3>Emily Rose</h3>
+                <p>"They really exceeded my expectations. I loved the experience!"</p>
+            </div>
+
+            <div class="testimonial-card">
+                <img src="images/user3.png" alt="User 3">
+                <h3>Michael Lee</h3>
+                <p>"Fast, responsive, and great quality work. Will definitely return."</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+ <!-- ===== Frequently Ask Question Section ===== -->
+<section class="faq">
+  <div class="container">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <button class="faq-question">What services do you provide?</button>
+      <div class="faq-answer">
+        <p>We offer high-quality services tailored to your needs, ensuring the best results.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">How can I contact your team?</button>
+      <div class="faq-answer">
+        <p>You can reach out to us anytime through the Contact section or by email.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Do you offer customer support?</button>
+      <div class="faq-answer">
+        <p>Yes! Our support team is always ready to help with any issues or questions.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========================= CONTACT SECTION ========================= -->
+<section class="contact" id="contact">
+
+  <div class="container">
+
+    <!-- Section Title -->
+    <h2 class="section-title">Get in Touch</h2>
+
+    <!-- Wrapper: Left side (contact info) + Right side (contact form) -->
+    <div class="contact-wrapper">
+
+      <!-- LEFT SIDE: Contact Details -->
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+
+        <!-- Basic contact details -->
+        <p>Email: info@yourwebsite.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Address: Hyderabad, India</p>
+      </div>
+
+      <!-- RIGHT SIDE: Contact Form -->
+      <form class="contact-form">
+
+        <!-- Name Field -->
+        <input type="text" placeholder="Your Name" required>
+
+        <!-- Email Field -->
+        <input type="email" placeholder="Your Email" required>
+
+        <!-- Message Box -->
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn">Send Message</button>
+
+      </form>
+    </div>
+  </div>
+
+</section>
+<!-- ======================= END CONTACT SECTION ======================== -->
+<!-- ============================== FOOTER =============================== -->
+<footer class="footer">
+
+  <div class="container footer-content">
+
+    <!-- LEFT SIDE: Logo + small description -->
+    <div class="footer-left">
+      <h2 class="footer-logo">YourLogo</h2>
+      <p class="footer-text">
+        Creating modern, responsive, and user-friendly web experiences.
+      </p>
+    </div>
+
+    <!-- MIDDLE: Navigation links -->
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- RIGHT SIDE: Social links -->
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+
+      <div class="social-icons">
+        <a href="#">🌐</a>
+        <a href="#">📘</a>
+        <a href="#">🐦</a>
+        <a href="#">📸</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM LINE -->
+  <div class="footer-bottom">
+    <p>© 2024 Your Website. All rights reserved.</p>
+  </div>
+
+</footer>
+<!-- ============================ END FOOTER ============================= -->
+
+  <script src="js/script.js"></script>
+</body>
+</html>
